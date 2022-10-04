@@ -90,7 +90,7 @@ export class Archiver {
         );
 
         return isEmpty(tasks)
-            ? "No tasks to archive"
+            ? ""
             : `Archived ${tasks.length} tasks`;
     }
 

@@ -120,7 +120,7 @@ export default class ObsidianTaskArchiver extends Plugin {
             if (activeMarkdownView) {
                 if (!checking) {
                     const file = this.getFileViewForMarkdownView(activeMarkdownView);
-                    withNotice(() => callback(file));
+                    // withNotice(() => callback(file));
                 }
                 return true;
             }
